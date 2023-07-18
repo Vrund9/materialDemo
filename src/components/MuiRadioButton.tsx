@@ -2,7 +2,6 @@ import { Box, FormControl, FormLabel, FormControlLabel, RadioGroup, Radio } from
 import React, { useState } from 'react'
 const MuiRadioButton = () => {
   const [value, setValue] = useState('')
-  console.log('v', value)
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setValue(event.target.value)
   }
